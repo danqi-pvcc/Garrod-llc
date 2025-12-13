@@ -24,10 +24,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-     <head>
+   <head>
   <link rel="manifest" href="/manifest.json" />
-  <link rel="apple-touch-icon" sizes="1024x1024" href="/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="icon" href="/apple-touch-icon.png" />
 </head>
+
 
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
